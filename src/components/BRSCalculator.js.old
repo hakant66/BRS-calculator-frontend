@@ -1,0 +1,15 @@
+// C:\apps\TestCode\BRS\brs-calculator\src\components\BRSCalculator.js
+
+import React from 'react'; // This is essential for all React components
+
+function BRSCalculator() {
+  return (
+    <div>
+      <h1>BRS Calculator Component</h1>
+      <p>This is where your calculator's UI and logic will go.</p>
+      {/* You can add your input fields, buttons, and display here */}
+    </div>
+  );
+}
+
+export default BRSCalculator; // This exports the component so index.js can import it
